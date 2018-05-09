@@ -194,9 +194,9 @@ header form {
 
 #mobile-menu>li {
     position: relative;
-    top: 90px;
     height: 150px;
     width: 150px;
+    margin: auto;
     text-align: center;
     background-color: transparent;
     border-radius: 50%;

@@ -11,6 +11,12 @@
     .main-nav>ol li>div {
         display: none;
     }
+    .gallery_template{
+        grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    }
+    .gallery{
+        width:90vw;
+    }
 }
 
 @media screen and (max-width: 665px) {
@@ -29,6 +35,9 @@
     .nav-meni li {
         width: 90vw;
         padding: 12px 0;
+    }
+    .contact_form{
+        flex-direction: column;
     }
 }
 
