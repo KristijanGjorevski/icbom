@@ -37,9 +37,7 @@
     padding-right: 0.5em;
 }
 
-.slide_container {
-    display: flex;
-    flex-direction: row;
+.about_slider {
     height: auto;
     width: 100%;
     max-width: 678px;
@@ -49,7 +47,7 @@
     transition: all .3s ease-in-out;
 }
 
-.slide_container img {
+.about_slider img {
     width: 100%;
     height: auto;
     margin: auto;
