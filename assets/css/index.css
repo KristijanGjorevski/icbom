@@ -863,6 +863,12 @@ header form {
     /* word-spacing: 0px; */
 }
 
+.mission{
+    padding: 5px;
+    background-color: #dee7d6;
+    z-index: 2;
+}
+
 .about_container {
     display: flex;
     flex-direction: column;
@@ -882,6 +888,12 @@ header form {
     top: -60%;
     left: 29%;
     border-radius: 50%;
+}
+
+.about_who{
+    padding: 5px;
+    background-color: #dee7d6;
+    z-index: 2;
 }
 
 
@@ -1034,7 +1046,8 @@ footer:hover .footer_logo {
 }
 
 .footer_meni li a {
-    color: rgba(40, 79, 139, 1);
+    /*color: rgba(40, 79, 139, 1);*/
+    color: #fff;
 }
 
 .list {

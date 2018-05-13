@@ -17,5 +17,13 @@ mobileDropMenu.addEventListener("click", function mobileButton() {
 
     }
 
-
 });
+
+const sendMail = () =>{
+
+    let subject = document.querySelector('#subject').value;
+    let body = document.querySelector('#message').value;
+    window.open(`mailto:icbom.mk@hotmail.com?subject=${subject}&body=${body}`);
+
+};
+
