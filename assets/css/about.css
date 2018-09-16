@@ -14,7 +14,9 @@
 }
 
 .mission {
-    padding: 15px;
+    padding: 5px;
+    background-color: #dee7d6;
+    z-index: 2;
 }
 
 .mission h3 {
